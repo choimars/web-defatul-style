@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/*IR 효과 의미있는 이미지의 대체 텍스트를 제공하는 경우*/
 
 .ir_pm {
     display: block;
@@ -10,7 +9,7 @@
     text-indent: -9999px;
 }
 
-/*의미있는 이미지의 대체 텍스트로 이미지가 없어도(CSS 배경으로 처리 해도) 텍스틀 보여 주고자 할 때*/
+
 .ir_wa {
     display: block;
     overflow: hidden;
@@ -20,7 +19,6 @@
     height: 100%;
 }
 
-/*대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공 할때*/
 .ir_su {
     display: block;
     overflow: hidden;
@@ -30,5 +28,5 @@
     height: 100%;
     line-height: 0;
     text-indent: -9999px;
-    
+
 }
